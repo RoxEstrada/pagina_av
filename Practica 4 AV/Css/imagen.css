@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2? family= Anton & family= Bungee+Inline & family= Fascinate+Inline & family= Kdam+Thmor+Pro & display=swap');
+
+:root {
+    --background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100% );
+   --color-primary: #667eea;
+    --color-secundary: #764ba2;
+    --padding-bottom: 20px 40px;
+}
+
+body {
+font-family:'Anton', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0;
+    max-width: 1200px;
+}
+
+.subtitle {
+    color: var(--color-primary);
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+}
+
+.hero{
+    height: 100vh;
+    background-image: var(--background), url('../imaa/Camara-Dahua-Domo_DH-HAC-T2A41N-0280B.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.hero .container{
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.nav--footer{
+    font-weight: 300;
+    justify-content: flex-start;
+}
+
+.nav__items{
+    color: beige;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-weight: inherit;
+}
+
+.nav__items--cta{
+    border: 1px solid #fff;
+}
+
+.nav__items--footer {
+    padding: 10px;
+}
+
+.hero__container {
+    display: flex;
+    height: calc(100vh - 70px);
+    align-items: center;
+    color:#fff;
+}
+
+.hero__texts {
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.hero__title {
+    font-size: 3.2rem;
+}
+
+.hero__subtitle {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 15px 0;
+}
+
+.hero__cta {
+    display: inline-block;
+    background: #fff;
+    padding: var(--padding-bottom);
+    color: var(--color-primary);
+    border-radius: 40px;
+}
+
+.presentation {
+    padding-top: 0;
+     text-align: center;
+}
+
+.presentation__picture {
+    width: 80px;
+    height: 80px;px;
+    border-radius: 100%;
+    margin-bottom: 100px; 
+    object-fit: cover;
+    object-position: top;  
+}
+
+.projects {
+    background:#fff;
+    margin-top: 70px;
+}
+
+
+.projects__grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.projects__item {
+    flex: 50%;
+    max-width: 24%;
+    padding: 0 4px;
+}
+
+.projects__img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+#footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  .pie {
+    font-size: 20px;
+    text-align: center;
+    color:black;
+  }
+
+  .copyrigth {
+    font-size: 20px;
+    text-align: center;
+}
+  .sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  .sociales a {
+    text-decoration: none;
+    color: rgb(93, 5, 236);
+  }
